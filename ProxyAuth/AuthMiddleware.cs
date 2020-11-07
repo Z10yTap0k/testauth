@@ -7,6 +7,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.Net.Http.Headers;
 using Newtonsoft.Json;
 
 namespace ProxyAuth
@@ -72,7 +73,7 @@ namespace ProxyAuth
 
         private static bool AcceptJson(IHeaderDictionary headers)
         {
-            return headers.TryGetValue("Accept", out var values) && values.Any(x => x == "application/json");
+            return headers.TryGetValue(HeaderNames.Accept, out var values) && values.Any(x => x == "application/json");
         }
 
         private ClaimsIdentity GetIdentity()
