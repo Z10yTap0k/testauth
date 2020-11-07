@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{75BD055F-135A-4C0D-A761-D68ECE3CC7E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyAuth", "ProxyAuth\ProxyAuth.csproj", "{3CB4337B-100E-4DBB-9BB4-46CA2FB9794B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMvc", "TestMvc\TestMvc.csproj", "{AFD43908-569A-4DD3-8235-88658A819EC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75BD055F-135A-4C0D-A761-D68ECE3CC7E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BD055F-135A-4C0D-A761-D68ECE3CC7E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75BD055F-135A-4C0D-A761-D68ECE3CC7E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BD055F-135A-4C0D-A761-D68ECE3CC7E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB4337B-100E-4DBB-9BB4-46CA2FB9794B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB4337B-100E-4DBB-9BB4-46CA2FB9794B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB4337B-100E-4DBB-9BB4-46CA2FB9794B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB4337B-100E-4DBB-9BB4-46CA2FB9794B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD43908-569A-4DD3-8235-88658A819EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD43908-569A-4DD3-8235-88658A819EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD43908-569A-4DD3-8235-88658A819EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD43908-569A-4DD3-8235-88658A819EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
